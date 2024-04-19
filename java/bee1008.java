@@ -10,5 +10,7 @@ public class bee1008 {
 
         System.out.println("NUMBER = " + numberEmployee);
         System.out.printf("SALARY = U$ %.2f\n", amountPerHour*hoursWorked);
+
+        input.close();
     }
 }
