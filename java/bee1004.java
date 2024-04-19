@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class bee1001 {
+public class bee1004 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int A = input.nextInt();
-        int B = input.nextInt();
-        int X = A + B;
 
-        System.out.println("X = " + X);
+        int n1 = input.nextInt();
+        int n2 = input.nextInt();
+
+        System.out.println("PROD = " + n1*n2);
 
         input.close();
     }
